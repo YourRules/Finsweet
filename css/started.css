@@ -1,0 +1,54 @@
+.started {
+  width: 949px;
+  height: 705px;
+  background-image: url("../assets/groupOfPeople.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-bottom: 128px;
+}
+
+.started__article {
+  width: 544px;
+  height: 400px;
+  background-color: #fff;
+  padding: 5rem;
+  position: relative;
+  left: 340px;
+}
+
+.started__slogan{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 3px;
+  margin-bottom: 24px;
+}
+
+.started__header {
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.started__text{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 32px;
+  color: #6D6E76;
+}
+
+.started__button {
+  padding: 1rem 3rem;
+  background-color: #FFD050;
+  color: #232536;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  border: none;
+}
