@@ -52,3 +52,35 @@
   line-height: 1.5rem;
   border: none;
 }
+
+@media screen and (min-width: 1245px) and (max-width: 1400px) {
+  .started__article {
+    left: 200px;
+  }
+}
+
+@media screen and (min-width: 1045px) and (max-width: 1245px) {
+  .started__article {
+    left: 0px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1045px) {
+  .started {
+    width: fit-content;
+    height: min-content;
+    background-image: none;
+  }
+  .started__article {
+    position: inherit;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+    height: max-content;
+  }
+  .started__header {
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: 0px;  
+  }
+}

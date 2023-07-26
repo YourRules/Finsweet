@@ -71,3 +71,48 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1480px) {
+  .subs {
+    flex-direction: column;
+  }
+  .subs__header {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .input {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__navbar-links {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .footer__navbar-links {
+    width: 70%;
+  }
+  .input input {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .subs {
+    padding: 40px;
+  }
+  .subs__header {
+    font-size: 1.5rem;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .input input {
+    width: auto;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}

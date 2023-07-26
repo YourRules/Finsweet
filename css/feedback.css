@@ -55,3 +55,60 @@
   border: none;
   background: none;
 }
+
+@media screen and (max-width: 1376px) {
+  .feedback {
+    padding: 60px 50px;
+  }
+  .line {
+    margin: 0px 40px;
+  }
+  .account {
+    width: 24px;
+    height: 24px;
+  }
+  .name {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .list__card-occupation {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .slider button img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .feedback {
+    padding: 60px 50px;
+    flex-direction: column;
+  }
+  .feedback__title {
+    min-width: 100%;
+  }
+  .started__header {
+    font-size: 1.5rem;
+  }
+  .line {
+    margin: 0px;
+    width: auto;
+    height: 1px;
+  }
+  .feedback__text {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-right: 30px;
+  }
+  .feedback__text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .feedback__control {
+    flex-direction: column;
+  }
+}

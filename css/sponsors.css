@@ -8,3 +8,13 @@
 .sponsors img {
   margin: 5px 20px
 }
+
+@media screen and (max-width: 536px) {
+  .sponsors {
+    display: flex;
+    justify-content: center;
+  }
+  .sponsors img {
+    margin: 10px 0px;
+  }
+}
